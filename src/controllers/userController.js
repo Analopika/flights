@@ -1,3 +1,3 @@
-exports.getMe = async (req, res) => {
+export const getMe = async (req, res) => {
     res.json(req.user);
 }
